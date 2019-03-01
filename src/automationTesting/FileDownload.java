@@ -24,6 +24,7 @@ public class FileDownload {
 		driver.findElement(By.xpath("//a[.='Mozilla GeckoDriver']/../..//a[.='latest']")).click();
 		driver.findElement(By.xpath("//strong[.='geckodriver-v0.24.0-macos.tar.gz']")).click();
 		
+		System.out.println("robot class");
 		Robot robot=new Robot();
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
